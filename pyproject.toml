@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "yamlenv2"
+version = "1.0.0"
+description = ""
+authors = ["sagnik ray choudhury <sagnikrayc@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyYAML = "*"
+six = "*"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^6.0.0"
+pytest-mock = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
