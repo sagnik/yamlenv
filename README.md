@@ -1,6 +1,6 @@
 #### YAMLENV
 
-This is a fork of [Ibolla/yamlenv](git@github.com:lbolla/yamlenv.git) that I added some stuff to.
+This is a fork of [Ibolla/yamlenv](https://github.com/lbolla/yamlenv.git) that I added some stuff to.
 
 If you want the original package, you can pip install it from pypi using `yamlenv`, for this package you should use `yamlenv2`.
 
