@@ -2,8 +2,11 @@
 
 This is a fork of [Ibolla/yamlenv](https://github.com/lbolla/yamlenv.git) that I added some stuff to.
 
-If you want the original package, you can pip install it from pypi using `yamlenv`, for this package you should use `yamlenv2`.
+#### Installation
 
+```shell
+pip install git+https://github.com/sagnik/yamlenv.git#egg=yamlenv
+```
 As in the original package, you can interpolate environment variables using this package, i.e., you can write stuff like `loc: ${HOME}/x/y/z` in your yml file and read that file with `yamlenv.load(a.yml)` and loc will be interpolated to your `${HOME}` environment variable.
 
 I have added some methods that I find useful

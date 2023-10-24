@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "yamlenv2"
+name = "yamlenv"
 version = "1.0.0"
 description = ""
 authors = ["sagnik ray choudhury <sagnikrayc@gmail.com>"]
